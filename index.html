@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Mi Portfolio</title>
+</head>
+<body>
+        <nav>
+          <div class="logo">
+            <i class="bx bx-menu menu-icon"></i>
+            <span class="logo-name">Portfolio</span>
+          </div>
+          <div class="sidebar">
+            <div class="logo">
+              <i class="bx bx-menu menu-icon"></i>
+              <span class="logo-name">Mi Portfolio</span>
+            </div>
+    
+            <div class="sidebar-content">
+              <ul class="lists">
+                <li class="list">
+                  <a href="#" class="nav-link">
+                    <i class="bx bx-home-alt icon"></i>
+                    <span class="link">Mis Skills</span>
+                  </a>
+                </li>
+                <li class="list">
+                  <a href="#" class="nav-link">
+                    <i class="bx bx-bar-chart-alt-2 icon"></i>
+                    <span class="link">Sobre Mi</span>
+                  </a>
+                </li>
+                <li class="list">
+                  <a href="#" class="nav-link">
+                    <i class="bx bx-bell icon"></i>
+                    <span class="link">Trabajos para ver</span>
+                  </a>
+                </li>
+                <li class="list">
+                  <a href="#" class="nav-link">
+                    <i class="bx bx-message-rounded icon"></i>
+                    <span class="link">Contacto</span>
+                  </a>
+                </li>
+              </ul>
+              </div>   
+        </nav>
+    <section>
+      <section id="container-slider">	
+        <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+        <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+        <ul class="listslider">
+          <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+          <li><a itlist="itList_1" href="#"></a></li>
+          <li><a itlist="itList_2" href="#"></a></li>
+        </ul>
+        <ul id="slider">
+          <li style="background-image: url(img/slider1.jpg); z-index:0; opacity: 1;">
+            <div class="content_slider" >
+              <div>
+                <h1>Soy Carmelo Gambale</h1>
+                <p>Freelance Web Developer y futuro programador</p>
+        </div>
+            </div>
+          </li>
+          <li style="background-image: url(img/slider2.jpg); ">
+            <div class="content_slider" >
+              <div>
+                <h2>Desarrollador Full Stack</h2>
+          <p>Diseños con HTML,CSS,JavaScript,Bootstrap 4/5</p>
+        </div>
+            </div>
+          </li>
+          <li style="background-image: url(img/slider3.jpg); ">
+            <div class="content_slider" >
+              <div>
+                <h2>Diseños Responsives</h2>
+          <p>Paginas Web para todo aparato tecnologico (Celulares, Notebooks, Tablets, etc)</p>
+        </div>
+            </div>
+          </li>
+       </ul>
+     </section>
+     <section class="about-us">
+      <div class="about">
+        <img src="./img/foto_perfil.jpeg" class="pic">
+        <div class="text">
+          <h2 class="tittle_about ">About Us</h2>
+          <h5>Front-end Developer & <span>Designer</span></h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita natus ad sed harum itaque ullam enim quas, veniam accusantium, quia animi id eos adipisci iusto molestias asperiores explicabo cum vero atque amet corporis! Soluta illum facere consequuntur magni. Ullam dolorem repudiandae cumque voluptate consequatur consectetur, eos provident necessitatibus reiciendis corrupti!</p>
+          <div class="data">
+          <a href="#" class="hire">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+      <div class="max-width">
+          <h2 class="title">My skills</h2>
+          <div class="skills-content">
+              <div class="column left">
+                  <div class="text">My creative skills & experiences.</div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+                  <a href="#">Read more</a>
+              </div>
+              <div class="column right">
+                  <div class="bars">
+                      <div class="info">
+                          <span>HTML</span>
+                          <span>90%</span>
+                      </div>
+                      <div class="line html"></div>
+                  </div>
+                  <div class="bars">
+                      <div class="info">
+                          <span>CSS</span>
+                          <span>90%</span>
+                      </div>
+                      <div class="line css"></div>
+                  </div>
+                  <div class="bars">
+                      <div class="info">
+                          <span>JavaScript</span>
+                          <span>70%</span>
+                      </div>
+                      <div class="line js"></div>
+                  </div>
+                  <div class="bars">
+                      <div class="info">
+                          <span>Bootstrap</span>
+                          <span>70%</span>
+                      </div>
+                      <div class="line Bootstrap"></div>
+                  </div>
+                  <div class="bars">
+                      <div class="info">
+                          <span>React Js</span>
+                          <span>50%</span>
+                      </div>
+                      <div class="line ReactJs"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <footer>
+    <div class="main-content">
+      <div class="center box">
+        <h2>Direccion Y Formas de Contacto</h2>
+        <div class="content">
+          <div class="place">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANtJREFUSEvtldENwjAMRK+TAJvAJmxSRoFJgE1gEqqr7Cgydh0h0q/mpx927p3dJB7QeQ2d9bEq4Azg+u+K6go+AF4ALgBuCYhmRslZzLcA1Y1AKrw3BkJjEcCCmEfHKvyUSu8ZKAPYTqnwQwJsq7dY0YGBVoAVVtEIULRbAdFx3gDl/20tmluRnojqwB/l4vEbrbmtdW95OXZBtua1CKvEF4ABvjV8vCzoZBy/JY97vHz3otXmI5AK22fdy3crsB3Sjeo0mxc1qAmQjIUwXIbXqiPzV7eL+7pXMAGZEDgZrUylxgAAAABJRU5ErkJggg=="/>
+            <span class="text">Buenos Aires, Argentina</span>
+          </div>
+          <div class="phone">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAY5JREFUSEvVle0xQ1EQht9UgApIBagAFZAKUAEqQAWogFSAClABOlCCDpgns3tnrbM3cmfyw85kksnds89+vHvuSEu20ZLjayjgS9KbfR4kPVaJVoBrSeuSjiV9Ng4DiAYMX75/WAasSrqXtGtez5L2iuy2zO/UkiGRM0l30T8DyGAzBeQA2fUZFZ9YtSTUVZIBuXQPmiFk+yqJCi/NySEE3/aDfwXgT/kEwWIiMeCHtWsiieH/UhEZ7RS9QCkH4Rm/L6ylDmceV5Kmko5aAFpx2AC820CzooAgihd7zuBpXVdVbpEfiIwquPvQLsBrqX2z2C2Z0seVQBhL4r9B1lq03CZUQq8HWQuwYT30Kigf2eUqWMpbk+pNRa+uCjI+D4cYGtJzCMGfJDFUrFzGvssOHe8HCJWwB0gQ5Xhwd2lC+gBkyV7kq6NvFvhTaSfnedc1ECqplq8F65asJdMqO2bClkb5Vr4MHN+ZzasgBkFdgFjGCuQb3Z1bBOCHaBsQ3hlAvX3NjR8CWGjh/j/gG+gKUhl2keNfAAAAAElFTkSuQmCC"/>
+            <span class="text">+348 15 4343427</span>
+          </div>
+          <div class="email">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQhJREFUSEvtldERwUAURU8qoAN0oAM6QAdUgApQASqgBDqgAyUogQqYa3bN2tlkk4wYH7k/ycjuPfvue4mEipVU7E8NiCbsRjQGdsANWALb6O7PBdq/Nj/Ngb3uXcAVaDl7DsDEALNYTWMsgJW8Oj7gEXDRwhFwSSF0TdW6+nod3q0gBLCbZoHIbCSqIKRCABnYyHSvXg0jPSoMkJ8ik9o5BqAUIIfve0kUcAT6QCPiegdOwMBbFwWsgI3JvpcCOZteaAgWZQB64SRdfQMdIOt5rgqsgSCKS5MkaYIUi1XoAIUBMrMzr8+Jq68B0vr9HwBNzNQ5otvE2Pz7FehLrMmq/9Fiyf0goide8TgZZ2khYwAAAABJRU5ErkJggg=="/>
+            <span class="text">Carmelogambale09@gmail.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer> 
+    
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
