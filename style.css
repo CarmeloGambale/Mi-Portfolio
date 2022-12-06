@@ -533,13 +533,12 @@ nav.open~.overlay {
 }
 
 .about {
-  width: auto;
-  
+  width: 1130px;
+  max-width: 85%;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .tittle_about{
@@ -573,17 +572,18 @@ span {
 
 .hire {
   font-size: 18px;
-  background: #4070f4;
-  color: #fff;
+  background: #fff;
+  color: #4070f4;
   text-decoration: none;
   border: none;
   padding: 8px 25px;
   border-radius: 6px;
   transition: 0.5s;
+  margin: 2rem;
 }
 
 .hire:hover {
-  background: #000;
+  background: #fff;
   border: 1px solid #4070f4;
 }
 /*SKILLS*/
