@@ -120,7 +120,7 @@ nav.open~.overlay {
   position: relative;
   display: block;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   min-height: 500px;
 }
 
@@ -516,11 +516,11 @@ nav.open~.overlay {
 /*Sobre Mi*/
 
 .about-us {
-  height: 100vh;
+  height: 700px;
   width: 100%;
-  padding: 60px 0;
+  padding: 80px 0;
   background: #ddd;
-  margin-top: 2rem;
+  margin-top: 4rem;
   border-radius: 16px;
 
 }
@@ -536,9 +536,10 @@ nav.open~.overlay {
   width: 1130px;
   max-width: 85%;
   margin: 0 auto;
+  margin-top: 2rem;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .tittle_about{
@@ -552,7 +553,7 @@ nav.open~.overlay {
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 5px;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 span {
@@ -595,9 +596,6 @@ span {
   justify-content: space-between;
   padding: 100px;
 }
-.skills .title::after{
-  content: "what i know";
-}
 .skills .title{
   position: relative;
   text-align: center;
@@ -634,7 +632,7 @@ span {
   margin-bottom: 10px;
 }
 .skills .skills-content .left p{
-  text-align: justify;
+  text-align: center;
 }
 .skills .skills-content .left a{
   display: inline-block;
@@ -693,6 +691,9 @@ span {
 }
 .skills-content .right .ReactJs::before{
   width: 50%;
+}
+.skills-content .right .C::before{
+  width: 40%;
 }
 
 /*Footer*/
@@ -815,11 +816,20 @@ span.text{
   .main-content .box{
     margin: 5px 0;
   }
-
-
   .pic {
-    width: 500px;
+    width: 200px;
     margin-right: 1rem;
+  }
+  .text h2 {
+    font-size: 40px;
+  }
+  .text h5 {
+    font-size: 22px;
+  }
+  .text p {
+    font-size: 16px;
+    padding: 0;
+    overflow: hidden;
   }
 }
 
@@ -847,6 +857,7 @@ span.text{
   .text p {
     font-size: 20px;
     padding: 0;
+    overflow: hidden;
   }
 
   .pic {
@@ -876,7 +887,8 @@ span.text{
 @media only screen and (max-width: 368px) {
   footer {
     position: relative;
-    height: 700px;
+    bottom: 0;
+    height: 400px;
   }
 
   .content {
@@ -901,40 +913,28 @@ span.text{
   .tittle_about {
     font-size: 30px;
   }
-
-  .text h5 {
-    font-size: 50px;
-  }
-
-  .text p {
-    font-size: 14px;
-    padding: 0;
-  }
-
   .pic {
     width: 200px;
     margin-right: 1rem;
   }
-
-  .container {
-    margin-right: 1rem;
-    width: 400px;
+  .text h2 {
+    font-size: 40px;
   }
-
-  .contenedor_texto {
-    padding: 2rem;
-    max-width: 300px;
+  .text h5 {
+    font-size: 22px;
   }
-
-  .global_section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  .text p {
+    font-size: 16px;
+    padding: 0;
+    overflow: hidden;
   }
+  .text-skills{
+  font-size: 12px;
+  overflow: scroll;
+  height: 300px;
+  width: 100px;
+}
+ 
 
 }
 
